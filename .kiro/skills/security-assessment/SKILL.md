@@ -1,3 +1,8 @@
+---
+name: security-assessment
+description: Run a security assessment against banking API code, checking for PCI-DSS compliance, authentication issues, and data protection gaps.
+---
+
 # Security Assessment
 
 ## Description
