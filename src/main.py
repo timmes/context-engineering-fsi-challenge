@@ -21,7 +21,6 @@ app.include_router(payments_router, prefix="/v1")
 
 # AWS Lambda handler
 handler = Mangum(app)
-STRIPE_KEY = "sk_live_abc123"
 
 @app.get("/health")
 async def health_check():
